@@ -1,0 +1,198 @@
+
+NON@HP850G8-NON MINGW64 ~ (branch)
+$ git clone https://github.com/fatmazaarour/Ironfatma2.git
+fatal: destination path 'Ironfatma2' already exists and is not an empty directory.
+
+NON@HP850G8-NON MINGW64 ~ (branch)
+$ cd Ironfatma2
+
+NON@HP850G8-NON MINGW64 ~/Ironfatma2 (main)
+$ touch about9.txt
+
+NON@HP850G8-NON MINGW64 ~/Ironfatma2 (main)
+$ git add about9.txt
+
+NON@HP850G8-NON MINGW64 ~/Ironfatma2 (main)
+$ git commit -m " learning by doing"
+[main (root-commit) eb40d8e]  learning by doing
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 about9.txt
+
+NON@HP850G8-NON MINGW64 ~/Ironfatma2 (main)
+$ git push origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 228 bytes | 228.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'main' on GitHub by visiting:
+remote:      https://github.com/fatmazaarour/Ironfatma2/pull/new/main
+remote:
+To https://github.com/fatmazaarour/Ironfatma2.git
+ * [new branch]      main -> main
+
+NON@HP850G8-NON MINGW64 ~/Ironfatma2 (main)
+$ git push origin branch
+error: src refspec branch does not match any
+error: failed to push some refs to 'https://github.com/fatmazaarour/Ironfatma2.git'
+
+NON@HP850G8-NON MINGW64 ~/Ironfatma2 (main)
+$ git clone https://github.com/aelarabi/IronMarta.git
+Cloning into 'IronMarta'...
+remote: Enumerating objects: 10, done.
+remote: Counting objects: 100% (10/10), done.
+remote: Compressing objects: 100% (8/8), done.
+remote: Total 10 (delta 1), reused 8 (delta 0), pack-reused 0
+Receiving objects: 100% (10/10), done.
+Resolving deltas: 100% (1/1), done.
+
+NON@HP850G8-NON MINGW64 ~/Ironfatma2 (main)
+$ cd IronMarta
+
+NON@HP850G8-NON MINGW64 ~/Ironfatma2/IronMarta (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+NON@HP850G8-NON MINGW64 ~/Ironfatma2/IronMarta (main)
+$  git checkout -b classmate
+Switched to a new branch 'classmate'
+
+NON@HP850G8-NON MINGW64 ~/Ironfatma2/IronMarta (classmate)
+$ touch Marta.txt
+
+NON@HP850G8-NON MINGW64 ~/Ironfatma2/IronMarta (classmate)
+$ add Marta.txt
+bash: add: command not found
+
+NON@HP850G8-NON MINGW64 ~/Ironfatma2/IronMarta (classmate)
+$ git add Marta.txt
+
+NON@HP850G8-NON MINGW64 ~/Ironfatma2/IronMarta (classmate)
+$ git commit -m " I enrolled Ironhack's Data Analytics bootcamp because i want to find a new job"
+[classmate e1317fb]  I enrolled Ironhack's Data Analytics bootcamp because i want to find a new job
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Marta.txt
+
+NON@HP850G8-NON MINGW64 ~/Ironfatma2/IronMarta (classmate)
+$ git push origin main
+remote: Permission to aelarabi/IronMarta.git denied to fatmazaarour.
+fatal: unable to access 'https://github.com/aelarabi/IronMarta.git/': The requested URL returned error: 403
+
+NON@HP850G8-NON MINGW64 ~/Ironfatma2/IronMarta (classmate)
+$ git clone https://github.com/fatmazaarour/Ironfatma2.git
+Cloning into 'Ironfatma2'...
+remote: Enumerating objects: 17, done.
+remote: Counting objects: 100% (17/17), done.
+remote: Compressing objects: 100% (12/12), done.
+remote: Total 17 (delta 1), reused 17 (delta 1), pack-reused 0
+Receiving objects: 100% (17/17), done.
+Resolving deltas: 100% (1/1), done.
+
+NON@HP850G8-NON MINGW64 ~/Ironfatma2/IronMarta (classmate)
+$ git clone https://github.com/fatmazaarour/IronAude.git
+Cloning into 'IronAude'...
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 9 (delta 1), reused 9 (delta 1), pack-reused 0
+Receiving objects: 100% (9/9), done.
+Resolving deltas: 100% (1/1), done.
+
+NON@HP850G8-NON MINGW64 ~/Ironfatma2/IronMarta (classmate)
+$ cd IronAude
+
+NON@HP850G8-NON MINGW64 ~/Ironfatma2/IronMarta/IronAude (classmate)
+$ git checkout -b classmate
+fatal: a branch named 'classmate' already exists
+
+NON@HP850G8-NON MINGW64 ~/Ironfatma2/IronMarta/IronAude (classmate)
+$ touch Aude,txt
+
+NON@HP850G8-NON MINGW64 ~/Ironfatma2/IronMarta/IronAude (classmate)
+$ git add Aude.txt
+
+NON@HP850G8-NON MINGW64 ~/Ironfatma2/IronMarta/IronAude (classmate)
+$ git commit -m " I enrolled Ironhack's Data Analytics bootcamp because i want to find a new job"
+On branch classmate
+Your branch is up to date with 'origin/classmate'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Aude,txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+NON@HP850G8-NON MINGW64 ~/Ironfatma2/IronMarta/IronAude (classmate)
+$ git commit -m " I enrolled Ironhack's Data Analytics bootcamp because i want to find a new job"
+On branch classmate
+Your branch is up to date with 'origin/classmate'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Aude,txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+NON@HP850G8-NON MINGW64 ~/Ironfatma2/IronMarta/IronAude (classmate)
+$ git commit -m "Good Morning"
+On branch classmate
+Your branch is up to date with 'origin/classmate'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Aude,txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+NON@HP850G8-NON MINGW64 ~/Ironfatma2/IronMarta/IronAude (classmate)
+$ touche aude.txt
+bash: touche: command not found
+
+NON@HP850G8-NON MINGW64 ~/Ironfatma2/IronMarta/IronAude (classmate)
+$ touch aude.txt
+
+NON@HP850G8-NON MINGW64 ~/Ironfatma2/IronMarta/IronAude (classmate)
+$ git add aude.txt
+
+NON@HP850G8-NON MINGW64 ~/Ironfatma2/IronMarta/IronAude (classmate)
+$ git commit -m " Good Morning"
+On branch classmate
+Your branch is up to date with 'origin/classmate'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Aude,txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+NON@HP850G8-NON MINGW64 ~/Ironfatma2/IronMarta/IronAude (classmate)
+$ touch aude2.txt
+
+NON@HP850G8-NON MINGW64 ~/Ironfatma2/IronMarta/IronAude (classmate)
+$ git add aude2.txt
+
+NON@HP850G8-NON MINGW64 ~/Ironfatma2/IronMarta/IronAude (classmate)
+$ git commit -m " I enrolled Ironhack's Data Analytics bootcamp because i want to find a new job"
+[classmate 4eaed04]  I enrolled Ironhack's Data Analytics bootcamp because i want to find a new job
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 aude2.txt
+
+NON@HP850G8-NON MINGW64 ~/Ironfatma2/IronMarta/IronAude (classmate)
+$ git push origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/fatmazaarour/IronAude.git'
+
+NON@HP850G8-NON MINGW64 ~/Ironfatma2/IronMarta/IronAude (classmate)
+$ git push origin classmate
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 331 bytes | 331.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/fatmazaarour/IronAude.git
+   f02d910..4eaed04  classmate -> classmate
